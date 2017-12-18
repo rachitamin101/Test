@@ -1,1 +1,10 @@
 
+Feature: Search Engine 
+ 
+ Scenario: Test that a User can search for Halifax and navigate to the their website from the results list
+        Given I navigate to the search page  
+          When I enter "Halifax" into the "Search box" field     
+            And I click the "search" button     
+          Then I should go to the results page   
+            And I click the "Halifax's" URL  
+          Then I land on "Halifax" home page    
