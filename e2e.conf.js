@@ -9,7 +9,7 @@ else {
 }
 
 exports.config = {
-    baseUrl: 'http://localhost:8001',
+    baseUrl: 'https://www.google.co.uk/',
 
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
