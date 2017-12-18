@@ -1,0 +1,11 @@
+_site
+
+bower_components
+node_modules
+
+test/unit/coverage
+test/**/.idea
+
+# Override default ignore list from parent
+!src/**/logs
+!test/**/logs
