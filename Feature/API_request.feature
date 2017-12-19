@@ -1,4 +1,4 @@
-Feature: Dealing with sub objects
+Feature: API Request
 
     Background:
         Given I am a client
